@@ -16,6 +16,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <!-- Actvity의 label은 기본제목으로 사용됩니다. -->
+        <activity
+            android:name=".BmiJavaActivity"
+            android:label="BmiJavaActvity" />
+        <activity
+            android:name=".BmiKotlinActivity"
+            android:label="BmiKotlinActivity" />
     </application>
 
 </manifest>
