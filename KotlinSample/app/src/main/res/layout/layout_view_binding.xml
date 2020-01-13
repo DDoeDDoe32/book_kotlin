@@ -6,27 +6,16 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/tallFaield"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="19dp"
-        android:layout_marginLeft="19dp"
-        android:ems="10"
-        android:hint="키를 입력하세요"
-        android:inputType="numberSigned"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/textView" />
-
-    <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tallField"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="23dp"
         android:layout_marginLeft="23dp"
-        android:layout_marginTop="51dp"
-        android:text="cm"
-        app:layout_constraintStart_toEndOf="@+id/tallFaield"
+        android:layout_marginTop="62dp"
+        android:ems="10"
+        android:hint="키를 입력하세요"
+        android:inputType="numberSigned"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
@@ -75,4 +64,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginLeft="14dp"
+        android:layout_marginTop="29dp"
+        android:text="cm"
+        app:layout_constraintStart_toEndOf="@+id/tallField"
+        app:layout_constraintTop_toTopOf="@+id/tallField" />
 </androidx.constraintlayout.widget.ConstraintLayout>
